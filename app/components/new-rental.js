@@ -18,7 +18,7 @@ export default Ember.Component.extend({
       this.set('addNewRental', false);
       Ember.Logger.log('log value of params:', params);
       if(params.owner === "" || params.city === "" || params.type === "" || params.image === "" || params.bedrooms === ""){
-        return alert("Enter somthing");
+        return alert("Please enter something");
       }else{
         return params;
       }
